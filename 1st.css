@@ -1,0 +1,72 @@
+h1 {
+	color: blue;
+}
+.anim {
+	width: 7%;
+	height: 20%;
+	background-color: blue;
+	border: 1px solid black;
+	padding: 5%;
+	position: relative;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes animation {
+	from { background-color: green; }
+	to { background-color: yellow; }
+}
+.aa  {
+	text-decoration: none;
+	width: 10%;
+	padding: 8%;
+	background-color: grey;
+}
+.drop {
+	display: inline-block;
+	position: relative ;
+}
+.drop1 {
+	width: 200%;
+	background-color: #ff7f50;
+	margin-top: 4%;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 5px;
+	opacity: 0.8;
+	display: none;
+}
+.drop1 a{
+	display: block;
+	text-decoration: none;
+	padding: 9%;
+	color: white;
+	display: block;
+	margin-top: 12px;
+}
+.drop1 a:hover{
+	background-color: white;
+	color: #ff7f50;
+}
+.drop:hover  .drop1{
+	display: block;
+}
+button {
+	width: 65px;
+	padding: 5px;
+
+}
+.pos {
+	width: 25%;
+	position: absolute;
+	left: 20%;
+}
+.vis a {
+	text-decoration: none;
+	padding: 10px;
+}
+.vis a:hover{
+	background-color: #afeeee;
+	border-radius: 2px;
+	box-shadow: 3px 3px 3px grey;
+}
